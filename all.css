@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #020c64;
+    color: white;
+    padding: 10px 20px;
+}
+
+#id-section {
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+nav ul li {
+    margin:  10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+#home-section {
+    text-align: center;
+}
+
+#home-section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#home-section p {
+    font-size: 1.2em;
+}
+.circle {
+  height: 50px;
+  width: 50px;
+    border-radius: 50%; /* Make it a circle */
+    background-size:contain;
+    background-position: center;
+  
+  }
+  
+  #circle {
+    background-image: url('6.jpeg'); /* Replace 'path_to_your_image.jpg' with your image URL */
+    
+  }
+  
+button {
+    background-color: #1d0369;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:  #040953;
+}
+
+
+table {
+    
+    padding: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+   align-items: center;
+
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #020e7a;
+    color: white;
+}
+
+tfoot td {
+    text-align: right;
+    font-weight: bold;
+}
+
